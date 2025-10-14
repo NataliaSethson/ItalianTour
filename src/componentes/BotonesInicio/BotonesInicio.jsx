@@ -22,7 +22,7 @@ const images = [
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
     position: 'relative',
     flex: '1 1 50%',
-    height: 1000,
+    height: 1500,
     [theme.breakpoints.down('sm')]: {
         flex: '1 1 100%',
         height: '50vh',
