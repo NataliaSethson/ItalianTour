@@ -1,13 +1,51 @@
-# React + Vite
+# Italian Tour
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Italian Tour** es una aplicación web desarrollada con **React**, **Vite** y **Material-UI (MUI)** que permite explorar excursiones y experiencias en Italia. Ofrece una interfaz moderna, responsiva y fácil de navegar, con un diseño visual atractivo que facilita la exploración de destinos turísticos. Este proyecto demuestra buenas prácticas en desarrollo frontend, uso de componentes reutilizables y enfoque en la experiencia del usuario.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías
 
-## Expanding the ESLint configuration
+- **React** – Librería principal para construir la interfaz.
+- **Vite** – Herramienta de construcción y desarrollo rápido.
+- **Material-UI (MUI)** – Librería de componentes para interfaces modernas.
+- **JavaScript / JSX** – Lenguaje de desarrollo frontend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ItalianTour
+---
+
+## Funcionalidades
+
+- Explorar excursiones y experiencias en Italia.
+- Interfaz responsiva y moderna.
+- Componentes reutilizables para un desarrollo eficiente.
+- Navegación intuitiva y visualmente atractiva.
+
+---
+
+## Instalación y Ejecución
+
+Clona el repositorio e instala las dependencias:
+
+```bash
+git clone https://github.com/NataliaSethson/ItalianTour.git
+cd italian-tour
+npm install
+
+
+Para levantar el proyecto en modo desarrollo:
+npm run dev
+
+Estructura del proyecto:
+
+italian-tour/
+├─ node_modules/
+├─ public/
+├─ src/
+│  ├─ components/  
+│  ├─ pages/        
+│  └─ main.jsx     
+├─ package.json
+├─ vite.config.js
+└─ README.md
+
+
