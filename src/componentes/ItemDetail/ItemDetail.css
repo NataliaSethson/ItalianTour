@@ -1,0 +1,99 @@
+.contenedorDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh; /* mejor que height fijo */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img.imageDetail {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.nombreDetail {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.descriptionDetail {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+
+.buttonVolver {
+    color: white !important;
+    border: 2px solid white !important;
+    margin-bottom: 30px !important;
+}
+
+/* ----------- MEDIA QUERIES ----------- */
+
+/* Tablets / pantallas medianas */
+@media (max-width: 1024px) {
+    img.imageDetail {
+        max-width: 400px;
+    }
+
+    .nombreDetail {
+        font-size: 40px;
+    }
+
+    .descriptionDetail {
+        font-size: 15px;
+        max-width: 90%;
+    }
+}
+
+/* Celulares grandes */
+@media (max-width: 768px) {
+    img.imageDetail {
+        max-width: 300px;
+    }
+
+    .nombreDetail {
+        font-size: 32px;
+    }
+
+    .descriptionDetail {
+        font-size: 14px;
+    }
+}
+
+/* Celulares pequeños */
+@media (max-width: 480px) {
+    img.imageDetail {
+        max-width: 250px;
+    }
+
+    .nombreDetail {
+        font-size: 26px;
+    }
+
+    .descriptionDetail {
+        font-size: 13px;
+    }
+
+    .buttonVolver {
+        width: 100%;
+    }
+}

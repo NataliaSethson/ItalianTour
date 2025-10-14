@@ -1,0 +1,45 @@
+[
+
+    {"id":1,
+    "name":"Fontana Di Trevi",
+    "category": "excursiones",
+    "img":  "/fontana.jpg " ,
+    "description" : "La Fontana di Trevi, con cerca de 40 metros de frente, es una de las mayores fuentes monumentales del Barroco en Roma. Según la actual división administrativa del centro de Roma, está situada en el rione de Trevi." 
+     },
+    {
+        "id": 2,
+        "name": "Venecia" ,
+       "category": "pasajes" ,
+        "img": "/venecia.jpg " ,
+        "description" : "Venecia, la capital de la región de Véneto en el norte de Italia, abarca más de 100 islas pequeñas en una laguna del mar Adriático. No tiene caminos, sino solo canales, incluida la vía pública del Gran Canal, bordeada de palacios renacentistas y góticos. En la plaza central de San Marcos, se encuentra la basílica de San Marcos, que tiene un suelo de mosaicos bizantinos, y el campanario Campanile con vista a los techos rojos de la ciudad." 
+    },
+    {
+        "id": 3 ,
+        "name": "Roma" ,
+        "category": "pasajes" ,
+        "img":  "/roma.jpg " ,
+        "description" : "Roma, la capital de Italia, es una extensa ciudad cosmopolita que tiene a la vista casi 3,000 años de arte, arquitectura y cultura de influencia mundial. Las ruinas antiguas como las del Foro y el Coliseo evocan el poder del antiguo Imperio Romano. La ciudad del Vaticano, sede central de la Iglesia católica romana, cuenta con la Basílica de San Pedro y los Museos del Vaticano, que albergan obras maestras como los frescos de la Capilla Sixtina de Miguel Ángel. " 
+    },
+    {
+       "id": 4 ,
+        "name": "Panteón" ,
+        "category": "excursiones" ,
+        "img":  "/panteon.jpg " ,
+        "description" : "El Panteón de Agripa o Panteón de Roma es un antiguo templo romano —en la actualidad, consagrado como iglesia católica—, situado en la ciudad de Roma, Italia, en el lugar de un anterior templo encargado por Marco Agripa durante el gobierno de Augusto." 
+    },
+    {
+        "id": 5 ,
+        "name": "Lago Di Como" ,
+       "category": "pasajes" ,
+        "img": "/lagoDiComo.jpg " ,
+        "description": "El lago di Como, situado en la región de Lombardía, en el norte de Italia, es un destino turístico exclusivo famoso por su espectacular paisaje alpino. El lago tiene forma de Y invertida, con tres ramificaciones más delgadas que se unen en la localidad turística de Bellagio. Al final de la rama suroccidental se erige la ciudad de Como, que destaca por su arquitectura renacentista y el funicular que sube hasta el municipio de montaña de Brunate. " 
+    },
+    {
+       "id": 6 ,
+       "name": "Vaticano" ,
+       "category": "excursiones" ,
+        "img": "/vaticano.jpg " ,
+        "description" : "La Ciudad del Vaticano, una ciudad estado ubicada dentro de Roma, Italia, es la sede central de la Iglesia Católica Romana. Es el hogar del Papa y es un tesoro de la arquitectura y el arte icónicos. Sus Museos del Vaticano contienen antiguas esculturas romanas, como la famosa “Laocoonte y sus hijos”, junto con frescos renacentistas en las Salas de Rafael y en la Capilla Sixtina, famosa por el techo pintado por Miguel Ángel." 
+
+    }
+]

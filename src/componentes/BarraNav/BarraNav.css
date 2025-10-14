@@ -1,0 +1,56 @@
+
+.divContainer{
+    background-color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+}
+
+img.italiaLogo{
+    max-width: 400px;
+    width: 400px;
+    display: block;
+    object-fit: contain;
+
+}
+
+@media (max-width: 1024px) {
+  .divContainer {
+    height: 160px;
+  }
+
+  img.italiaLogo {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divContainer {
+    height: 140px;
+  }
+
+  img.italiaLogo {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .divContainer {
+    height: 120px;
+    padding: 8px;
+  }
+
+  img.italiaLogo {
+    max-width: 160px;
+  }
+}

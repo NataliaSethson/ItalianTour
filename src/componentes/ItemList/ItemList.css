@@ -1,0 +1,59 @@
+/* Pantallas grandes - desktop */
+.contenedorItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ----------- BREAKPOINTS ----------- */
+
+/* iPad Pro / laptops medianas (~1024px - 1200px) */
+@media (max-width: 1200px) {
+  .contenedorItems {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+  }
+}
+
+/* Asus ZenBook / laptops pequeñas (~1366px - 1440px) */
+@media (max-width: 1400px) {
+  .contenedorItems {
+    grid-template-columns: 1fr; /* todas las cards apiladas verticalmente */
+    gap: 40px;
+  }
+
+  .contenedorItem {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Tablets y celulares */
+@media (max-width: 992px) {
+  .contenedorItems {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .contenedorItem {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedorItems {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contenedorItem {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
