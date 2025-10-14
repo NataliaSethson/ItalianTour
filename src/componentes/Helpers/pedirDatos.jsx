@@ -5,7 +5,7 @@ export  const pedirDatos =()=>{
   return new Promise((resolve, reject) => {
     setTimeout(()=>{
       resolve(Mock_Data)
-    },2000)
+    },1000)
   })
 }
 
